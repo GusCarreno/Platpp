@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		EC40BC392A716F28002F5E6B /* PlatppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC382A716F28002F5E6B /* PlatppApp.swift */; };
 		EC40BC3B2A716F28002F5E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC3A2A716F28002F5E6B /* ContentView.swift */; };
-		EC40BC3D2A716F29002F5E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC40BC3C2A716F29002F5E6B /* Assets.xcassets */; };
-		EC40BC412A716F29002F5E6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC40BC402A716F29002F5E6B /* Preview Assets.xcassets */; };
 		EC40BC4B2A716F29002F5E6B /* PlatppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */; };
 		EC40BC552A716F29002F5E6B /* PlatppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC542A716F29002F5E6B /* PlatppUITests.swift */; };
 		EC40BC572A716F29002F5E6B /* PlatppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC562A716F29002F5E6B /* PlatppUITestsLaunchTests.swift */; };
+		ECB55DC22A71727F009D80EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB55DBC2A71727F009D80EA /* Assets.xcassets */; };
+		ECB55DC32A71727F009D80EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB55DBE2A71727F009D80EA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +37,14 @@
 		EC40BC352A716F28002F5E6B /* Platpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC40BC382A716F28002F5E6B /* PlatppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppApp.swift; sourceTree = "<group>"; };
 		EC40BC3A2A716F28002F5E6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EC40BC3C2A716F29002F5E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC40BC3E2A716F29002F5E6B /* Platpp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Platpp.entitlements; sourceTree = "<group>"; };
-		EC40BC402A716F29002F5E6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC40BC462A716F29002F5E6B /* PlatppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppTests.swift; sourceTree = "<group>"; };
 		EC40BC502A716F29002F5E6B /* PlatppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC40BC542A716F29002F5E6B /* PlatppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppUITests.swift; sourceTree = "<group>"; };
 		EC40BC562A716F29002F5E6B /* PlatppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECB55DBC2A71727F009D80EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB55DBE2A71727F009D80EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECB55DBF2A71727F009D80EA /* Platpp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Platpp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,21 +95,18 @@
 		EC40BC372A716F28002F5E6B /* Platpp */ = {
 			isa = PBXGroup;
 			children = (
+				ECB55DB62A71727E009D80EA /* Model */,
+				ECB55DB92A71727F009D80EA /* Modules */,
+				ECB55DBA2A71727F009D80EA /* Networking */,
+				ECB55DB82A71727E009D80EA /* Repositories */,
+				ECB55DC12A71727F009D80EA /* Resources */,
+				ECB55DBB2A71727F009D80EA /* SupportingFiles */,
+				ECB55DB72A71727E009D80EA /* ViewModels */,
+				ECB55DC02A71727F009D80EA /* Views */,
 				EC40BC382A716F28002F5E6B /* PlatppApp.swift */,
 				EC40BC3A2A716F28002F5E6B /* ContentView.swift */,
-				EC40BC3C2A716F29002F5E6B /* Assets.xcassets */,
-				EC40BC3E2A716F29002F5E6B /* Platpp.entitlements */,
-				EC40BC3F2A716F29002F5E6B /* Preview Content */,
 			);
 			path = Platpp;
-			sourceTree = "<group>";
-		};
-		EC40BC3F2A716F29002F5E6B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				EC40BC402A716F29002F5E6B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		EC40BC492A716F29002F5E6B /* PlatppTests */ = {
@@ -127,6 +124,73 @@
 				EC40BC562A716F29002F5E6B /* PlatppUITestsLaunchTests.swift */,
 			);
 			path = PlatppUITests;
+			sourceTree = "<group>";
+		};
+		ECB55DB62A71727E009D80EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECB55DB72A71727E009D80EA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ECB55DB82A71727E009D80EA /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		ECB55DB92A71727F009D80EA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ECB55DBA2A71727F009D80EA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		ECB55DBB2A71727F009D80EA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				ECB55DBC2A71727F009D80EA /* Assets.xcassets */,
+				ECB55DBD2A71727F009D80EA /* Preview Content */,
+				ECB55DBF2A71727F009D80EA /* Platpp.entitlements */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		ECB55DBD2A71727F009D80EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECB55DBE2A71727F009D80EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECB55DC02A71727F009D80EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECB55DC12A71727F009D80EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +297,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC40BC412A716F29002F5E6B /* Preview Assets.xcassets in Resources */,
-				EC40BC3D2A716F29002F5E6B /* Assets.xcassets in Resources */,
+				ECB55DC32A71727F009D80EA /* Preview Assets.xcassets in Resources */,
+				ECB55DC22A71727F009D80EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +501,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.Platpp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,10 +541,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.Platpp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC40BC392A716F28002F5E6B /* PlatppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC382A716F28002F5E6B /* PlatppApp.swift */; };
+		EC40BC3B2A716F28002F5E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC3A2A716F28002F5E6B /* ContentView.swift */; };
+		EC40BC3D2A716F29002F5E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC40BC3C2A716F29002F5E6B /* Assets.xcassets */; };
+		EC40BC412A716F29002F5E6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC40BC402A716F29002F5E6B /* Preview Assets.xcassets */; };
+		EC40BC4B2A716F29002F5E6B /* PlatppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */; };
+		EC40BC552A716F29002F5E6B /* PlatppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC542A716F29002F5E6B /* PlatppUITests.swift */; };
+		EC40BC572A716F29002F5E6B /* PlatppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC562A716F29002F5E6B /* PlatppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC40BC472A716F29002F5E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC40BC2D2A716F28002F5E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC40BC342A716F28002F5E6B;
+			remoteInfo = Platpp;
+		};
+		EC40BC512A716F29002F5E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC40BC2D2A716F28002F5E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC40BC342A716F28002F5E6B;
+			remoteInfo = Platpp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC40BC352A716F28002F5E6B /* Platpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC40BC382A716F28002F5E6B /* PlatppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppApp.swift; sourceTree = "<group>"; };
+		EC40BC3A2A716F28002F5E6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC40BC3C2A716F29002F5E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC40BC3E2A716F29002F5E6B /* Platpp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Platpp.entitlements; sourceTree = "<group>"; };
+		EC40BC402A716F29002F5E6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC40BC462A716F29002F5E6B /* PlatppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppTests.swift; sourceTree = "<group>"; };
+		EC40BC502A716F29002F5E6B /* PlatppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC40BC542A716F29002F5E6B /* PlatppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppUITests.swift; sourceTree = "<group>"; };
+		EC40BC562A716F29002F5E6B /* PlatppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC40BC322A716F28002F5E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC40BC432A716F29002F5E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC40BC4D2A716F29002F5E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC40BC2C2A716F28002F5E6B = {
+			isa = PBXGroup;
+			children = (
+				EC40BC372A716F28002F5E6B /* Platpp */,
+				EC40BC492A716F29002F5E6B /* PlatppTests */,
+				EC40BC532A716F29002F5E6B /* PlatppUITests */,
+				EC40BC362A716F28002F5E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC40BC362A716F28002F5E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC40BC352A716F28002F5E6B /* Platpp.app */,
+				EC40BC462A716F29002F5E6B /* PlatppTests.xctest */,
+				EC40BC502A716F29002F5E6B /* PlatppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC40BC372A716F28002F5E6B /* Platpp */ = {
+			isa = PBXGroup;
+			children = (
+				EC40BC382A716F28002F5E6B /* PlatppApp.swift */,
+				EC40BC3A2A716F28002F5E6B /* ContentView.swift */,
+				EC40BC3C2A716F29002F5E6B /* Assets.xcassets */,
+				EC40BC3E2A716F29002F5E6B /* Platpp.entitlements */,
+				EC40BC3F2A716F29002F5E6B /* Preview Content */,
+			);
+			path = Platpp;
+			sourceTree = "<group>";
+		};
+		EC40BC3F2A716F29002F5E6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC40BC402A716F29002F5E6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC40BC492A716F29002F5E6B /* PlatppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */,
+			);
+			path = PlatppTests;
+			sourceTree = "<group>";
+		};
+		EC40BC532A716F29002F5E6B /* PlatppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC40BC542A716F29002F5E6B /* PlatppUITests.swift */,
+				EC40BC562A716F29002F5E6B /* PlatppUITestsLaunchTests.swift */,
+			);
+			path = PlatppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC40BC342A716F28002F5E6B /* Platpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC40BC5A2A716F29002F5E6B /* Build configuration list for PBXNativeTarget "Platpp" */;
+			buildPhases = (
+				EC40BC312A716F28002F5E6B /* Sources */,
+				EC40BC322A716F28002F5E6B /* Frameworks */,
+				EC40BC332A716F28002F5E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Platpp;
+			productName = Platpp;
+			productReference = EC40BC352A716F28002F5E6B /* Platpp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC40BC452A716F29002F5E6B /* PlatppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC40BC5D2A716F29002F5E6B /* Build configuration list for PBXNativeTarget "PlatppTests" */;
+			buildPhases = (
+				EC40BC422A716F29002F5E6B /* Sources */,
+				EC40BC432A716F29002F5E6B /* Frameworks */,
+				EC40BC442A716F29002F5E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC40BC482A716F29002F5E6B /* PBXTargetDependency */,
+			);
+			name = PlatppTests;
+			productName = PlatppTests;
+			productReference = EC40BC462A716F29002F5E6B /* PlatppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC40BC4F2A716F29002F5E6B /* PlatppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC40BC602A716F29002F5E6B /* Build configuration list for PBXNativeTarget "PlatppUITests" */;
+			buildPhases = (
+				EC40BC4C2A716F29002F5E6B /* Sources */,
+				EC40BC4D2A716F29002F5E6B /* Frameworks */,
+				EC40BC4E2A716F29002F5E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC40BC522A716F29002F5E6B /* PBXTargetDependency */,
+			);
+			name = PlatppUITests;
+			productName = PlatppUITests;
+			productReference = EC40BC502A716F29002F5E6B /* PlatppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC40BC2D2A716F28002F5E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EC40BC342A716F28002F5E6B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EC40BC452A716F29002F5E6B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EC40BC342A716F28002F5E6B;
+					};
+					EC40BC4F2A716F29002F5E6B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EC40BC342A716F28002F5E6B;
+					};
+				};
+			};
+			buildConfigurationList = EC40BC302A716F28002F5E6B /* Build configuration list for PBXProject "Platpp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC40BC2C2A716F28002F5E6B;
+			productRefGroup = EC40BC362A716F28002F5E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC40BC342A716F28002F5E6B /* Platpp */,
+				EC40BC452A716F29002F5E6B /* PlatppTests */,
+				EC40BC4F2A716F29002F5E6B /* PlatppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC40BC332A716F28002F5E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC40BC412A716F29002F5E6B /* Preview Assets.xcassets in Resources */,
+				EC40BC3D2A716F29002F5E6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC40BC442A716F29002F5E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC40BC4E2A716F29002F5E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC40BC312A716F28002F5E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC40BC3B2A716F28002F5E6B /* ContentView.swift in Sources */,
+				EC40BC392A716F28002F5E6B /* PlatppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC40BC422A716F29002F5E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC40BC4B2A716F29002F5E6B /* PlatppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC40BC4C2A716F29002F5E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC40BC552A716F29002F5E6B /* PlatppUITests.swift in Sources */,
+				EC40BC572A716F29002F5E6B /* PlatppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC40BC482A716F29002F5E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC40BC342A716F28002F5E6B /* Platpp */;
+			targetProxy = EC40BC472A716F29002F5E6B /* PBXContainerItemProxy */;
+		};
+		EC40BC522A716F29002F5E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC40BC342A716F28002F5E6B /* Platpp */;
+			targetProxy = EC40BC512A716F29002F5E6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC40BC582A716F29002F5E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC40BC592A716F29002F5E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EC40BC5B2A716F29002F5E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Platpp/Platpp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Platpp/Preview Content\"";
+				DEVELOPMENT_TEAM = KK43H84X67;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.Platpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC40BC5C2A716F29002F5E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Platpp/Platpp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Platpp/Preview Content\"";
+				DEVELOPMENT_TEAM = KK43H84X67;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.Platpp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC40BC5E2A716F29002F5E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KK43H84X67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.PlatppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platpp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Platpp";
+			};
+			name = Debug;
+		};
+		EC40BC5F2A716F29002F5E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KK43H84X67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.PlatppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platpp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Platpp";
+			};
+			name = Release;
+		};
+		EC40BC612A716F29002F5E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KK43H84X67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.PlatppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Platpp;
+			};
+			name = Debug;
+		};
+		EC40BC622A716F29002F5E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KK43H84X67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.PlatppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Platpp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC40BC302A716F28002F5E6B /* Build configuration list for PBXProject "Platpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC40BC582A716F29002F5E6B /* Debug */,
+				EC40BC592A716F29002F5E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC40BC5A2A716F29002F5E6B /* Build configuration list for PBXNativeTarget "Platpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC40BC5B2A716F29002F5E6B /* Debug */,
+				EC40BC5C2A716F29002F5E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC40BC5D2A716F29002F5E6B /* Build configuration list for PBXNativeTarget "PlatppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC40BC5E2A716F29002F5E6B /* Debug */,
+				EC40BC5F2A716F29002F5E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC40BC602A716F29002F5E6B /* Build configuration list for PBXNativeTarget "PlatppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC40BC612A716F29002F5E6B /* Debug */,
+				EC40BC622A716F29002F5E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC40BC2D2A716F28002F5E6B /* Project object */;
+}

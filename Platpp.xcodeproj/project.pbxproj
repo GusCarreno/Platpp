@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC40BC392A716F28002F5E6B /* PlatppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC382A716F28002F5E6B /* PlatppApp.swift */; };
-		EC40BC3B2A716F28002F5E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC3A2A716F28002F5E6B /* ContentView.swift */; };
 		EC40BC4B2A716F29002F5E6B /* PlatppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */; };
 		EC40BC552A716F29002F5E6B /* PlatppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC542A716F29002F5E6B /* PlatppUITests.swift */; };
 		EC40BC572A716F29002F5E6B /* PlatppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC562A716F29002F5E6B /* PlatppUITestsLaunchTests.swift */; };
@@ -16,6 +14,14 @@
 		ECB55DC32A71727F009D80EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB55DBE2A71727F009D80EA /* Preview Assets.xcassets */; };
 		ECB55DC62A717C3D009D80EA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = ECB55DC52A717C3D009D80EA /* Realm */; };
 		ECB55DC82A717C3D009D80EA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ECB55DC72A717C3D009D80EA /* RealmSwift */; };
+		ECB55DCA2A71D04A009D80EA /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DC92A71D04A009D80EA /* VideoModel.swift */; };
+		ECB55DCC2A71D094009D80EA /* VideosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DCB2A71D094009D80EA /* VideosViewModel.swift */; };
+		ECB55DCE2A71D0C0009D80EA /* VideoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DCD2A71D0C0009D80EA /* VideoRepository.swift */; };
+		ECB55DD02A71D0FF009D80EA /* VideosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DCF2A71D0FF009D80EA /* VideosListView.swift */; };
+		ECB55DD22A71D154009D80EA /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DD12A71D154009D80EA /* VideoDetailView.swift */; };
+		ECB55DD42A71D1AB009D80EA /* ConnectivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DD32A71D1AB009D80EA /* ConnectivityMonitor.swift */; };
+		ECB55DD62A71D272009D80EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DD52A71D272009D80EA /* SceneDelegate.swift */; };
+		ECB55DD82A71D334009D80EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB55DD72A71D334009D80EA /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +43,6 @@
 
 /* Begin PBXFileReference section */
 		EC40BC352A716F28002F5E6B /* Platpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC40BC382A716F28002F5E6B /* PlatppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppApp.swift; sourceTree = "<group>"; };
-		EC40BC3A2A716F28002F5E6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC40BC462A716F29002F5E6B /* PlatppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppTests.swift; sourceTree = "<group>"; };
 		EC40BC502A716F29002F5E6B /* PlatppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,14 @@
 		ECB55DBC2A71727F009D80EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB55DBE2A71727F009D80EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECB55DBF2A71727F009D80EA /* Platpp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Platpp.entitlements; sourceTree = "<group>"; };
+		ECB55DC92A71D04A009D80EA /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		ECB55DCB2A71D094009D80EA /* VideosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewModel.swift; sourceTree = "<group>"; };
+		ECB55DCD2A71D0C0009D80EA /* VideoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRepository.swift; sourceTree = "<group>"; };
+		ECB55DCF2A71D0FF009D80EA /* VideosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosListView.swift; sourceTree = "<group>"; };
+		ECB55DD12A71D154009D80EA /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		ECB55DD32A71D1AB009D80EA /* ConnectivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityMonitor.swift; sourceTree = "<group>"; };
+		ECB55DD52A71D272009D80EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECB55DD72A71D334009D80EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,15 +112,14 @@
 			isa = PBXGroup;
 			children = (
 				ECB55DB62A71727E009D80EA /* Model */,
-				ECB55DB92A71727F009D80EA /* Modules */,
 				ECB55DBA2A71727F009D80EA /* Networking */,
 				ECB55DB82A71727E009D80EA /* Repositories */,
 				ECB55DC12A71727F009D80EA /* Resources */,
 				ECB55DBB2A71727F009D80EA /* SupportingFiles */,
 				ECB55DB72A71727E009D80EA /* ViewModels */,
 				ECB55DC02A71727F009D80EA /* Views */,
-				EC40BC382A716F28002F5E6B /* PlatppApp.swift */,
-				EC40BC3A2A716F28002F5E6B /* ContentView.swift */,
+				ECB55DD52A71D272009D80EA /* SceneDelegate.swift */,
+				ECB55DD72A71D334009D80EA /* AppDelegate.swift */,
 			);
 			path = Platpp;
 			sourceTree = "<group>";
@@ -133,6 +144,7 @@
 		ECB55DB62A71727E009D80EA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ECB55DC92A71D04A009D80EA /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +152,7 @@
 		ECB55DB72A71727E009D80EA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				ECB55DCB2A71D094009D80EA /* VideosViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -147,20 +160,15 @@
 		ECB55DB82A71727E009D80EA /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				ECB55DCD2A71D0C0009D80EA /* VideoRepository.swift */,
 			);
 			path = Repositories;
-			sourceTree = "<group>";
-		};
-		ECB55DB92A71727F009D80EA /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modules;
 			sourceTree = "<group>";
 		};
 		ECB55DBA2A71727F009D80EA /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				ECB55DD32A71D1AB009D80EA /* ConnectivityMonitor.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -186,6 +194,8 @@
 		ECB55DC02A71727F009D80EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ECB55DCF2A71D0FF009D80EA /* VideosListView.swift */,
+				ECB55DD12A71D154009D80EA /* VideoDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -334,8 +344,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC40BC3B2A716F28002F5E6B /* ContentView.swift in Sources */,
-				EC40BC392A716F28002F5E6B /* PlatppApp.swift in Sources */,
+				ECB55DD82A71D334009D80EA /* AppDelegate.swift in Sources */,
+				ECB55DD22A71D154009D80EA /* VideoDetailView.swift in Sources */,
+				ECB55DD62A71D272009D80EA /* SceneDelegate.swift in Sources */,
+				ECB55DCA2A71D04A009D80EA /* VideoModel.swift in Sources */,
+				ECB55DD42A71D1AB009D80EA /* ConnectivityMonitor.swift in Sources */,
+				ECB55DD02A71D0FF009D80EA /* VideosListView.swift in Sources */,
+				ECB55DCE2A71D0C0009D80EA /* VideoRepository.swift in Sources */,
+				ECB55DCC2A71D094009D80EA /* VideosViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,10 +502,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Platpp/Platpp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Platpp/SupportingFiles/Platpp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Platpp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Platpp/SupportingFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = KK43H84X67;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -511,6 +528,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.Platpp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -526,10 +544,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Platpp/Platpp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Platpp/SupportingFiles/Platpp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Platpp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Platpp/SupportingFiles/Preview Content\"";
 				DEVELOPMENT_TEAM = KK43H84X67;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -551,6 +570,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.platpp.test.Platpp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

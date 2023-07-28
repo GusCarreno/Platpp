@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC40BC4B2A716F29002F5E6B /* PlatppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */; };
 		EC40BC552A716F29002F5E6B /* PlatppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC542A716F29002F5E6B /* PlatppUITests.swift */; };
 		EC40BC572A716F29002F5E6B /* PlatppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC40BC562A716F29002F5E6B /* PlatppUITestsLaunchTests.swift */; };
+		EC6959A72A740EAF000EC4C3 /* VideosViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6959A62A740EAF000EC4C3 /* VideosViewModelTests.swift */; };
 		ECB55DC22A71727F009D80EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB55DBC2A71727F009D80EA /* Assets.xcassets */; };
 		ECB55DC32A71727F009D80EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB55DBE2A71727F009D80EA /* Preview Assets.xcassets */; };
 		ECB55DC62A717C3D009D80EA /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = ECB55DC52A717C3D009D80EA /* Realm */; };
@@ -44,10 +44,10 @@
 /* Begin PBXFileReference section */
 		EC40BC352A716F28002F5E6B /* Platpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC40BC462A716F29002F5E6B /* PlatppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppTests.swift; sourceTree = "<group>"; };
 		EC40BC502A716F29002F5E6B /* PlatppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC40BC542A716F29002F5E6B /* PlatppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppUITests.swift; sourceTree = "<group>"; };
 		EC40BC562A716F29002F5E6B /* PlatppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC6959A62A740EAF000EC4C3 /* VideosViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewModelTests.swift; sourceTree = "<group>"; };
 		ECB55DBC2A71727F009D80EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB55DBE2A71727F009D80EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECB55DBF2A71727F009D80EA /* Platpp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Platpp.entitlements; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		EC40BC492A716F29002F5E6B /* PlatppTests */ = {
 			isa = PBXGroup;
 			children = (
-				EC40BC4A2A716F29002F5E6B /* PlatppTests.swift */,
+				EC6959A62A740EAF000EC4C3 /* VideosViewModelTests.swift */,
 			);
 			path = PlatppTests;
 			sourceTree = "<group>";
@@ -359,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC40BC4B2A716F29002F5E6B /* PlatppTests.swift in Sources */,
+				EC6959A72A740EAF000EC4C3 /* VideosViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
